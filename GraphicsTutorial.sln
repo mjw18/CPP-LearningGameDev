@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicsTutorial", "GraphicsTutorial\GraphicsTutorial.vcxproj", "{C06B19B5-818F-48C7-8F9D-595BD0420360}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0755D4AC-850B-4C5A-9D26-E7F05BC26139} = {0755D4AC-850B-4C5A-9D26-E7F05BC26139}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebEngine", "WebEngine\WebEngine.vcxproj", "{0755D4AC-850B-4C5A-9D26-E7F05BC26139}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZombieGame", "ZombieGame\ZombieGame.vcxproj", "{CCCF1FDB-572A-4ACA-8DC3-E235028C6A3D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0755D4AC-850B-4C5A-9D26-E7F05BC26139} = {0755D4AC-850B-4C5A-9D26-E7F05BC26139}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BallGame", "BallGame\BallGame.vcxproj", "{7C6DD87E-6240-4641-8BF5-D1831AB93C24}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0755D4AC-850B-4C5A-9D26-E7F05BC26139} = {0755D4AC-850B-4C5A-9D26-E7F05BC26139}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NinjaPlatformer", "NinjaPlatformer\NinjaPlatformer.vcxproj", "{15A6B636-0D57-4235-BA7D-68F45DABB986}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0755D4AC-850B-4C5A-9D26-E7F05BC26139} = {0755D4AC-850B-4C5A-9D26-E7F05BC26139}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaTest", "LuaTest\LuaTest.vcxproj", "{CD1A16AC-15BF-4B7A-97DC-E0BFB9CCA8F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesertGame", "DesertGame\DesertGame.vcxproj", "{B9EC1A48-B9FB-4E92-A544-AC3E5BB4B950}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesertNinja", "DesertNinja\DesertNinja.vcxproj", "{5C9BBAC1-5093-4E5E-8F24-671707B56CAB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0755D4AC-850B-4C5A-9D26-E7F05BC26139} = {0755D4AC-850B-4C5A-9D26-E7F05BC26139}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mjw18.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GraphicsTutorial\\GraphicsTutorial.vcxproj
+		SccProjectName1 = GraphicsTutorial
+		SccLocalPath1 = GraphicsTutorial
+		SccProjectUniqueName2 = WebEngine\\WebEngine.vcxproj
+		SccProjectName2 = WebEngine
+		SccLocalPath2 = WebEngine
+		SccProjectUniqueName3 = ZombieGame\\ZombieGame.vcxproj
+		SccProjectName3 = ZombieGame
+		SccLocalPath3 = ZombieGame
+		SccProjectUniqueName4 = BallGame\\BallGame.vcxproj
+		SccProjectName4 = BallGame
+		SccLocalPath4 = BallGame
+		SccProjectUniqueName5 = NinjaPlatformer\\NinjaPlatformer.vcxproj
+		SccProjectName5 = NinjaPlatformer
+		SccLocalPath5 = NinjaPlatformer
+		SccProjectUniqueName6 = LuaTest\\LuaTest.vcxproj
+		SccProjectName6 = LuaTest
+		SccLocalPath6 = LuaTest
+		SccProjectUniqueName7 = DesertGame\\DesertGame.vcxproj
+		SccProjectName7 = DesertGame
+		SccLocalPath7 = DesertGame
+		SccProjectUniqueName8 = DesertNinja\\DesertNinja.vcxproj
+		SccProjectName8 = DesertNinja
+		SccLocalPath8 = DesertNinja
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C06B19B5-818F-48C7-8F9D-595BD0420360}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C06B19B5-818F-48C7-8F9D-595BD0420360}.Debug|Win32.Build.0 = Debug|Win32
+		{C06B19B5-818F-48C7-8F9D-595BD0420360}.Release|Win32.ActiveCfg = Release|Win32
+		{C06B19B5-818F-48C7-8F9D-595BD0420360}.Release|Win32.Build.0 = Release|Win32
+		{0755D4AC-850B-4C5A-9D26-E7F05BC26139}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0755D4AC-850B-4C5A-9D26-E7F05BC26139}.Debug|Win32.Build.0 = Debug|Win32
+		{0755D4AC-850B-4C5A-9D26-E7F05BC26139}.Release|Win32.ActiveCfg = Release|Win32
+		{0755D4AC-850B-4C5A-9D26-E7F05BC26139}.Release|Win32.Build.0 = Release|Win32
+		{CCCF1FDB-572A-4ACA-8DC3-E235028C6A3D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CCCF1FDB-572A-4ACA-8DC3-E235028C6A3D}.Debug|Win32.Build.0 = Debug|Win32
+		{CCCF1FDB-572A-4ACA-8DC3-E235028C6A3D}.Release|Win32.ActiveCfg = Release|Win32
+		{CCCF1FDB-572A-4ACA-8DC3-E235028C6A3D}.Release|Win32.Build.0 = Release|Win32
+		{7C6DD87E-6240-4641-8BF5-D1831AB93C24}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C6DD87E-6240-4641-8BF5-D1831AB93C24}.Debug|Win32.Build.0 = Debug|Win32
+		{7C6DD87E-6240-4641-8BF5-D1831AB93C24}.Release|Win32.ActiveCfg = Release|Win32
+		{7C6DD87E-6240-4641-8BF5-D1831AB93C24}.Release|Win32.Build.0 = Release|Win32
+		{15A6B636-0D57-4235-BA7D-68F45DABB986}.Debug|Win32.ActiveCfg = Debug|Win32
+		{15A6B636-0D57-4235-BA7D-68F45DABB986}.Debug|Win32.Build.0 = Debug|Win32
+		{15A6B636-0D57-4235-BA7D-68F45DABB986}.Release|Win32.ActiveCfg = Release|Win32
+		{15A6B636-0D57-4235-BA7D-68F45DABB986}.Release|Win32.Build.0 = Release|Win32
+		{CD1A16AC-15BF-4B7A-97DC-E0BFB9CCA8F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD1A16AC-15BF-4B7A-97DC-E0BFB9CCA8F8}.Debug|Win32.Build.0 = Debug|Win32
+		{CD1A16AC-15BF-4B7A-97DC-E0BFB9CCA8F8}.Release|Win32.ActiveCfg = Release|Win32
+		{CD1A16AC-15BF-4B7A-97DC-E0BFB9CCA8F8}.Release|Win32.Build.0 = Release|Win32
+		{B9EC1A48-B9FB-4E92-A544-AC3E5BB4B950}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B9EC1A48-B9FB-4E92-A544-AC3E5BB4B950}.Debug|Win32.Build.0 = Debug|Win32
+		{B9EC1A48-B9FB-4E92-A544-AC3E5BB4B950}.Release|Win32.ActiveCfg = Release|Win32
+		{B9EC1A48-B9FB-4E92-A544-AC3E5BB4B950}.Release|Win32.Build.0 = Release|Win32
+		{5C9BBAC1-5093-4E5E-8F24-671707B56CAB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C9BBAC1-5093-4E5E-8F24-671707B56CAB}.Debug|Win32.Build.0 = Debug|Win32
+		{5C9BBAC1-5093-4E5E-8F24-671707B56CAB}.Release|Win32.ActiveCfg = Release|Win32
+		{5C9BBAC1-5093-4E5E-8F24-671707B56CAB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

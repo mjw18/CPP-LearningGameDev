@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0755D4AC-850B-4C5A-9D26-E7F05BC26139}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>WebEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)/deps/include/;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)/deps/include/;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="BaseEntity.cpp" />
+    <ClCompile Include="BasicUI.cpp" />
+    <ClCompile Include="Camera2D.cpp" />
+    <ClCompile Include="CameraController.cpp" />
+    <ClCompile Include="DebugRenderer.cpp" />
+    <ClCompile Include="Err.cpp" />
+    <ClCompile Include="GLSLProgram.cpp" />
+    <ClCompile Include="GUIManager.cpp" />
+    <ClCompile Include="ImageLoader.cpp" />
+    <ClCompile Include="IMainGame.cpp" />
+    <ClCompile Include="InputComponent.cpp" />
+    <ClCompile Include="InputContext.cpp" />
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="IOManager.cpp" />
+    <ClCompile Include="LuaEngine.cpp" />
+    <ClCompile Include="ParticleBatch2D.cpp" />
+    <ClCompile Include="Particle2DManager.cpp" />
+    <ClCompile Include="picoPNG.cpp" />
+    <ClCompile Include="pugixml.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="RigidBody.cpp" />
+    <ClCompile Include="ScreenList.cpp" />
+    <ClCompile Include="SpriteBatch.cpp" />
+    <ClCompile Include="SpriteFont.cpp" />
+    <ClCompile Include="Timing.cpp" />
+    <ClCompile Include="UIButton.cpp" />
+    <ClCompile Include="UIHoverButtonState.cpp" />
+    <ClCompile Include="UIInactiveButtonState.cpp" />
+    <ClCompile Include="UIInputComponent.cpp" />
+    <ClCompile Include="UIPalette.cpp" />
+    <ClCompile Include="WebEngine.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="TextureCache.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="XMLParser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="BaseEntity.h" />
+    <ClInclude Include="BasicUI.h" />
+    <ClInclude Include="Camera2D.h" />
+    <ClInclude Include="CameraController.h" />
+    <ClInclude Include="IComponent.h" />
+    <ClInclude Include="DebugRenderer.h" />
+    <ClInclude Include="Err.h" />
+    <ClInclude Include="GLSLProgram.h" />
+    <ClInclude Include="GLTexture.h" />
+    <ClInclude Include="ColorRGBA8.h" />
+    <ClInclude Include="GUIManager.h" />
+    <ClInclude Include="ICommand.h" />
+    <ClInclude Include="InputComponent.h" />
+    <ClInclude Include="LuaEngine.h" />
+    <ClInclude Include="LuaHelperFunctions.h" />
+    <ClInclude Include="RigidBody.h" />
+    <ClInclude Include="ScriptedFSM.h" />
+    <ClInclude Include="TileSheet.h" />
+    <ClInclude Include="pugiconfig.hpp" />
+    <ClInclude Include="pugixml.hpp" />
+    <ClInclude Include="rawInputConstants.h" />
+    <ClInclude Include="IGameScreen.h" />
+    <ClInclude Include="ImageLoader.h" />
+    <ClInclude Include="IMainGame.h" />
+    <ClInclude Include="InputContext.h" />
+    <ClInclude Include="InputManager.h" />
+    <ClInclude Include="IOManager.h" />
+    <ClInclude Include="ParticleBatch2D.h" />
+    <ClInclude Include="Particle2DManager.h" />
+    <ClInclude Include="picoPNG.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="ScreenList.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="SpriteBatch.h" />
+    <ClInclude Include="SpriteFont.h" />
+    <ClInclude Include="TextureCache.h" />
+    <ClInclude Include="Timing.h" />
+    <ClInclude Include="UIButton.h" />
+    <ClInclude Include="UIButtonState.h" />
+    <ClInclude Include="UIHoverButtonState.h" />
+    <ClInclude Include="UIInactiveButtonState.h" />
+    <ClInclude Include="UIInputComponent.h" />
+    <ClInclude Include="UIPalette.h" />
+    <ClInclude Include="vertex.h" />
+    <ClInclude Include="WebEngine.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="XMLParser.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<BasicUI >
+	<Button x = "-20" y = "6.5" width = "6" height = "1" text = "PLAYGAM OR DONT, WHICHEVER" script = "XMLdata/MenuPlayGame.lua"/>
+	<Button x = "-20" y = "5" width = "6" height = "1" text = "DEBUG" script = "lll.lua"/>
+	<Button x = "-20" y = "3.5" width = "6" height = "1" text = "OPTIONS" script = "luaScript.lua"/>
+</BasicUI>

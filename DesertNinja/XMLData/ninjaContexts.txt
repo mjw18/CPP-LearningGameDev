@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<GameContext>
+	<Context type="Default">
+		<Key type="State" name = "LookUp"/>
+		<Key type="State" name = "LookLeft"/>
+		<Key type="State" name = "LookRight"/>
+	</Context>
+	<Context type="Roaming">
+		<Key type="Action" name="MoveRight"/>
+		<Key type="Action" name="MoveLeft"/>
+		<Key type="Action" name="Jump"/>
+		<Key type="Action" name="Attack"/>
+		<Key type="State" name="RunRight"/>
+		<Key type="State" name="RunLeft"/>
+	</Context>
+</GameContext>

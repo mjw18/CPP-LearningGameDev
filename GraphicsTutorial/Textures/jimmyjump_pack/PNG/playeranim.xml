@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<sprite file="playeranim.bmp" name="playeranim">
+	<frame name="CharacterRight_Jump" x="0" y="0" w="74" h="79" />
+	<frame name="CharacterRight_Standing" x="74" y="0" w="73" h="79" />
+	<frame name="CharacterRight_Walk1" x="147" y="0" w="70" h="77" />
+	<frame name="CharacterRight_Walk2" x="0" y="79" w="71" h="77" />
+</sprite>

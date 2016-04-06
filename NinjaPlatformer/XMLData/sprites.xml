@@ -1,0 +1,18 @@
+<TextureAtlas imagePath="sprites.png">
+	<SubTexture anim = "run" index="1" x="0" y="165" width="46" height="50" source="64"/>
+	<SubTexture anim = "run" index="2" x="0" y="58" width="50" height="51" source="64"/>
+	<SubTexture anim = "run" index="3" x="52" y="58" width="42" height="50" source="64"/>
+	<SubTexture anim = "run" index="4" x="48" y="165" width="44" height="51" source="64"/>
+	<SubTexture anim = "run" index="5" x="0" y="111" width="48" height="52" source="64"/>
+	<SubTexture anim = "run" index="6" x="50" y="111" width="43" height="49" source="64"/>
+	<SubTexture anim = "jump" index="7" x="135" y="169" width="22" height="56" source="64"/>
+	<SubTexture anim = "fall" index="8" x="135" y="116" width="34" height="51" source="64"/>
+	<SubTexture anim = "kick" index="9" x="0" y="0" width="52" height="37" source="64"/>
+	<SubTexture anim = "dead" index="10" x="0" y="39" width="52" height="17" source="64"/>
+	<SubTexture anim = "default" index="11" x="132" y="57" width="34" height="57" source="64"/>
+	<SubTexture anim = "punch" index="12" x="96" y="57" width="34" height="55" source="64"/>
+	<SubTexture anim = "punch" index="13" x="134" y="0" width="34" height="52" source="64"/>
+	<SubTexture anim = "punch" index="14" x="54" y="0" width="40" height="51" source="64"/>
+	<SubTexture anim = "punch" index="15" x="94" y="162" width="39" height="52" source="64"/>
+	<SubTexture anim = "hit" index="16" x="96" y="0" width="36" height="55" source="64"/>
+</TextureAtlas>
